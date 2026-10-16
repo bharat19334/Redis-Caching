@@ -2,9 +2,8 @@ import requests
 
 BASE_URL = "http://127.0.0.1:8000"
 
-print("\n==================================================")
-print("🚀 RUNNING REDIS CACHING BENCHMARK TEST")
-print("==================================================\n")
+
+print("RUNNING REDIS CACHING BENCHMARK TEST")
 
 try:
     print("1: First Request (Without Redis / Supabase Cache Miss) ---")
